@@ -7,12 +7,5 @@ export class Negociacoes {
     }
     listar() {
         return this.negociacoes;
-        /*
-        Outra forma de declarar como readonly seria:
-    
-         listar(): readonly Negociacao[] {
-          return this.negociacoes;
-        }
-      */
     }
 }
